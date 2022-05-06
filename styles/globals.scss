@@ -10,7 +10,7 @@
   }
 
   form {
-    @apply flex flex-col gap-6 max-w-lg;
+    @apply bg-white rounded-lg overflow-hidden ring-1 ring-primary-900/5 p-8 flex flex-col gap-8;
   }
 
   input,

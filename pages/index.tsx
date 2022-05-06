@@ -1,10 +1,14 @@
 import type { NextPage } from 'next'
 
+import { ScrambleForm } from '@/form/index'
+
 const Home: NextPage = () => {
   return (
-    <div>
-      <h1>Hello sunshine 👋</h1>
-    </div>
+    <main>
+      <h1>🐣 Standup Scramble</h1>
+
+      <ScrambleForm />
+    </main>
   )
 }
 
